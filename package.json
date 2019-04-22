@@ -1,6 +1,6 @@
 {
   "name": "youtube-playlist-to-mp3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily Download Your Playlist To MP3",
   "main": "src/index.js",
   "repository": "https://github.com/ionadev/youtube-playlist-to-mp3",
