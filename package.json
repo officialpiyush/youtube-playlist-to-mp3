@@ -1,0 +1,20 @@
+{
+  "name": "youtube-playlist-to-mp3",
+  "version": "1.0.0",
+  "description": "Easily Download Your Playlist To MP3",
+  "main": "src/index.js",
+  "repository": "https://github.com/ionadev/youtube-playlist-to-mp3",
+  "author": "Piyush Bhangale",
+  "license": "GNU General Public License v3.0",
+  "private": false,
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "eslint ./",
+    "preinstall": "yarn global add ytdl@0.11.1",
+    "postinstall": "chmod +x src/install_ffmpeg.sh && ./src/install_ffmpeg.sh"
+  },
+  "dependencies": {
+    "node-cmd": "^3.0.0",
+    "youtube-playlist": "^1.0.2"
+  }
+}
