@@ -9,7 +9,6 @@
   "private": false,
   "scripts": {
     "start": "node build/src/index.js",
-    "test": "eslint ./",
     "preinstall": "yarn global add ytdl@0.11.1",
     "postinstall": "chmod +x src/install_ffmpeg.sh && ./src/install_ffmpeg.sh"
   },
