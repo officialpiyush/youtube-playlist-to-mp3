@@ -5,6 +5,8 @@ import playlist from "../config"
 
 var names: String[] = [], urls: String[] = [], i;
 
+if(playlist === "") throw new TypeError("Playlist URL Not Specified");
+
 main(playlist);
 
 async function main(url: String) {
@@ -32,7 +34,7 @@ async function main(url: String) {
             }.mp3"\n`
         );
     }
-    await file.write("chmod -R 777 ./mp3")
+    await file.write("echo \"Done Downloading All Songs 🎉\nChanging CHMOD\"chmod -R 777 ./mp3\n\"Sucessfully Downloaded!\"")
 
     await cmd.run("chmod +x ./dl.sh");
     console.log("[ PROCESS ] Finished Writing to dl.sh");
