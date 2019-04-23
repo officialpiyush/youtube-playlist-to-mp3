@@ -9,6 +9,7 @@
   "private": false,
   "scripts": {
     "start": "node build/src/index.js",
+    "build": "tsc",
     "preinstall": "yarn global add ytdl@0.11.1",
     "postinstall": "chmod +x src/install_ffmpeg.sh && ./src/install_ffmpeg.sh"
   },
