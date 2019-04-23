@@ -34,7 +34,7 @@ async function main(url: String) {
             }.mp3"\n`
         );
     }
-    await file.write("echo \"Done Downloading All Songs 🎉\nChanging CHMOD\"chmod -R 777 ./mp3\n\"Sucessfully Downloaded!\"")
+    await file.write("echo \"Done Downloading All Songs 🎉\"\necho \"Changing CHMOD\"\nchmod -R 777 ./mp3\necho \"Sucessfully Downloaded!\"")
 
     await cmd.run("chmod +x ./dl.sh");
     console.log("[ PROCESS ] Finished Writing to dl.sh");
