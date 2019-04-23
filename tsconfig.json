@@ -1,0 +1,27 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"allowJs": true,
+		"alwaysStrict": true,
+		"experimentalDecorators": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"noImplicitAny": true,
+		"noUnusedParameters": true,
+		"outDir": "build",
+		"pretty": true,
+		"sourceMap": true,
+		"strict": true,
+        "target": "esnext",
+        "types": [
+            "node"
+        ]
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": [
+		"src",
+		"typings", "config.ts"
+	]
+}
