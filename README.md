@@ -85,6 +85,9 @@
 
 -   **Piyush Bhangale** - Initial Work, Idea, Main Contributor, Owner - [ionadev](https://github.com/ionadev)
 
+<br>
 ---
 
 <div align="center"> <strong><i>Downloading videos from YouTube is against the YouTube Policy. The only videos that your allowed to download is your own which you can already do using YouTube Studio. </i></strong></div>
+
+---
