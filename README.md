@@ -35,56 +35,56 @@
 
 ---
 
-
 ## Getting Started
 
 > This Is Right Now made Only For Linux, Other OS Supported Soon!
 
 ### Prerequisites
 
-* NodeJS ( Version Greater Than 10 )
-* An Active Internet Connection
-* FFMPEG
-* [Yarn](https://yarnpkg.com/en/) Installed
-* Git Installed
-* TypeScript Installed
+-   NodeJS ( Version Greater Than 10 )
+-   An Active Internet Connection
+-   FFMPEG
+-   [Yarn](https://yarnpkg.com/en/) Installed
+-   Git Installed
+-   TypeScript Installed
 
 ### Installing
 
-* First Clone The [Repository](https://github.com/ionadev/youtube-playlist-to-mp3) using:
-  ```
-  git clone https://github.com/ionadev/youtube-playlist-to-mp3.git
-  ```
+-   First Clone The [Repository](https://github.com/ionadev/youtube-playlist-to-mp3) using:
 
-* Then Navigate to `your/path/youtube-playlist-to-mp3-master`.
+    ```
+    git clone https://github.com/ionadev/youtube-playlist-to-mp3.git
+    ```
 
-* Install Deps Using `yarn`:
-  ```
-  yarn
-  ```
+-   Then Navigate to `your/path/youtube-playlist-to-mp3-master`.
+
+-   Install Deps Using `yarn`:
+    ```
+    yarn
+    ```
 
 ## Running
 
-* Place Your Playlist URL in `config.ts` file. [Permalink](https://github.com/ionadev/youtube-playlist-to-mp3/blob/35e6b5de3d4257c03a9fcc4be7b788297eb37343/config.ts#L1) 
+-   Place Your Playlist URL in `config.ts` file. [Permalink](https://github.com/ionadev/youtube-playlist-to-mp3/blob/35e6b5de3d4257c03a9fcc4be7b788297eb37343/config.ts#L1)
 
-* Now, to Compile, just run `yarn build` in the root folder.
+-   Now, to Compile, just run `yarn build` in the root folder.
 
-* After You Have followed the above step, run `yarn start`.
+-   After You Have followed the above step, run `yarn start`.
 
-* Now just run `./dl.sh` and enjoy :tada:.
+-   Now just run `./dl.sh` and enjoy :tada:.
 
 > Remember To Execute All These Commands From The Root Folder
 
 ## Built With
 
-* [youtube-playlist](https://npmjs.com/youtube-playlist)
-* [node-cmd](https://npmjs.com/node-cmd) ( As I Was Too Lazy To write it from child process ;) )
-* [Typescript](https://npmjs.com/typescript)
+-   [youtube-playlist](https://npmjs.com/youtube-playlist)
+-   [node-cmd](https://npmjs.com/node-cmd) ( As I Was Too Lazy To write it from child process ;) )
+-   [Typescript](https://npmjs.com/typescript)
 
 ## Authors
 
-* **Piyush Bhangale** - Initial Work, Idea, Main Contributor, Owner - [ionadev](https://github.com/ionadev)
+-   **Piyush Bhangale** - Initial Work, Idea, Main Contributor, Owner - [ionadev](https://github.com/ionadev)
 
-# Disclaimer
 ---
-* Downloading videos from YouTube is against the YouTube Policy. The only videos that your allowed to download is your own which you can already do using YouTube Studio.
+
+<div align="center"> <strong><i>Downloading videos from YouTube is against the YouTube Policy. The only videos that your allowed to download is your own which you can already do using YouTube Studio. </i></strong></div>
