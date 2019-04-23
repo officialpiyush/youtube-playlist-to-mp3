@@ -1,0 +1,13 @@
+{
+	"extends": "tslint-config-fire",
+	"rules": {
+		"curly": [true, "as-needed"],
+		"eofline": false,
+		"max-classes-per-file": false,
+		"no-dynamic-delete": false,
+		"no-eval": false,
+		"ordered-imports": true,
+		"prefer-template": [true, "allow-single-concat"],
+		"trailing-comma": [true, { "multiline": "always", "singleline": "never" }]
+	}
+}
