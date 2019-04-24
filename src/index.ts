@@ -39,8 +39,4 @@ async function main(url: String) {
 
     await exec("chmod +x ./dl.sh");
     console.log("[ PROCESS ] Finished Writing to dl.sh");
-    if(config.autoDownload) {
-        console.log("Starting to Download");
-        exec("./dl.sh");
-    }
 }
