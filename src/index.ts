@@ -3,7 +3,7 @@ import * as fs from "fs";
 import * as cmd from "node-cmd";
 import playlist from "../config"
 
-var names: String[] = [], urls: String[] = [], i;
+var names: String[] = [], urls: String[] = [], i:number;
 
 if(playlist === "") throw new TypeError("Playlist URL Not Specified");
 
