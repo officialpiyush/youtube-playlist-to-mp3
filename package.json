@@ -14,7 +14,6 @@
     "postinstall": "chmod +x src/install_ffmpeg.sh && ./src/install_ffmpeg.sh"
   },
   "dependencies": {
-    "node-cmd": "^3.0.0",
     "youtube-playlist": "^1.0.2"
   }
 }

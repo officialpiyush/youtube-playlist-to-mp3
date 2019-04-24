@@ -1,6 +1,6 @@
 import * as playlistloader from "youtube-playlist";
 import * as fs from "fs";
-import * as cmd from "node-cmd";
+import {exec} from "child_process";
 import config from "../config"
 
 var names: String[] = [], urls: String[] = [], i:number;
@@ -35,11 +35,12 @@ async function main(url: String) {
         );
     }
     await file.write("echo \"Done Downloading All Songs 🎉\"\necho \"Changing CHMOD\"\nchmod -R 777 ./mp3\necho \"Sucessfully Downloaded!\"")
+    file.close();
 
-    await cmd.run("chmod +x ./dl.sh");
+    await exec("chmod +x ./dl.sh");
     console.log("[ PROCESS ] Finished Writing to dl.sh");
     if(config.autoDownload) {
         console.log("Starting to Download");
-        await cmd.run("./dl.sh");
+        exec("./dl.sh");
     }
 }
