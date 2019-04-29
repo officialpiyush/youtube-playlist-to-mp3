@@ -10,25 +10,25 @@
     <img src="https://img.shields.io/discord/543812119397924886.svg?style=for-the-badge&colorB=7289DA" alt="Support">
   </a>
   
-  <a href="https://github.com/ionadev/youtube-playlist-to-mp3/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/ionadev/youtube-playlist-to-mp3.svg?style=for-the-badge" alt="Apache-2.0 License">
+  <a href="https://github.com/officialpiyush/youtube-playlist-to-mp3/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/officialpiyush/youtube-playlist-to-mp3.svg?style=for-the-badge" alt="Apache-2.0 License">
   </a>
-<a href="https://travis-ci.com/ionadev/youtube-playlist-to-mp3">
-<img src="https://img.shields.io/travis/com/ionadev/youtube-playlist-to-mp3.svg?style=for-the-badge">
+<a href="https://travis-ci.com/officialpiyush/youtube-playlist-to-mp3">
+<img src="https://img.shields.io/travis/com/officialpiyush/youtube-playlist-to-mp3.svg?style=for-the-badge">
 </a>
 <br>
-<a href="https://github.com/ionadev/youtube-playlist-to-mp3">
+<a href="https://github.com/officialpiyush/youtube-playlist-to-mp3">
 <img src="https://img.shields.io/codacy/grade/65d316633e8f403795058b2deef6ffb5.svg?style=for-the-badge">
 </a>
 <br>
-<a href="https://github.com/ionadev/youtube-playlist-to-mp3">
-<img src="https://img.shields.io/github/languages/top/ionadev/youtube-playlist-to-mp3.svg?style=for-the-badge">
+<a href="https://github.com/officialpiyush/youtube-playlist-to-mp3">
+<img src="https://img.shields.io/github/languages/top/officialpiyush/youtube-playlist-to-mp3.svg?style=for-the-badge">
 </a>
-<a href="https://github.com/ionadev/youtube-playlist-to-mp3/issues">
-<img src="https://img.shields.io/github/issues/ionadev/youtube-playlist-to-mp3.svg?style=for-the-badge">
+<a href="https://github.com/officialpiyush/youtube-playlist-to-mp3/issues">
+<img src="https://img.shields.io/github/issues/officialpiyush/youtube-playlist-to-mp3.svg?style=for-the-badge">
 </a>
-<a href="https://github.com/ionadev/youtube-playlist-to-mp3/pulls">
-<img src="https://img.shields.io/github/issues-pr/ionadev/youtube-playlist-to-mp3.svg?style=for-the-badge">
+<a href="https://github.com/officialpiyush/youtube-playlist-to-mp3/pulls">
+<img src="https://img.shields.io/github/issues-pr/officialpiyush/youtube-playlist-to-mp3.svg?style=for-the-badge">
 </a>
 
 </div>
@@ -50,10 +50,10 @@
 
 ### Installing
 
--   First Clone The [Repository](https://github.com/ionadev/youtube-playlist-to-mp3) using:
+-   First Clone The [Repository](https://github.com/officialpiyush/youtube-playlist-to-mp3) using:
 
     ```
-    git clone https://github.com/ionadev/youtube-playlist-to-mp3.git
+    git clone https://github.com/officialpiyush/youtube-playlist-to-mp3.git
     ```
 
 -   Then Navigate to `your/path/youtube-playlist-to-mp3-master`.
@@ -65,7 +65,7 @@
 
 ## Running
 
--   Place Your Playlist URL in `config.ts` file. [Permalink](https://github.com/ionadev/youtube-playlist-to-mp3/blob/35e6b5de3d4257c03a9fcc4be7b788297eb37343/config.ts#L1)
+-   Place Your Playlist URL in `config.ts` file. [Permalink](https://github.com/officialpiyush/youtube-playlist-to-mp3/blob/35e6b5de3d4257c03a9fcc4be7b788297eb37343/config.ts#L1)
 
 -   Now, to Compile, just run `yarn build` in the root folder.
 
@@ -83,7 +83,7 @@
 
 ## Authors
 
--   **Piyush Bhangale** - Initial Work, Idea, Main Contributor, Owner - [ionadev](https://github.com/ionadev)
+-   **Piyush Bhangale** - Initial Work, Idea, Main Contributor, Owner - [officialpiyush](https://github.com/officialpiyush)
 
 <br>
 
